@@ -3,7 +3,7 @@ import { Icons } from './Icons'
 
 const Experience = () => {
   return (
-    <div className='experience font-mono'>
+    <div className='experience font-mono md:h-[780px] md:mb-[70px]'>
         <div className="heading m-auto items-center justify-center text-center">
             <p className='text-gray-400'>My</p>
             <p className='text-4xl text-cyan-500'>Experience</p>

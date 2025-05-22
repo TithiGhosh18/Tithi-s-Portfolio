@@ -33,7 +33,7 @@ const projects = [
 
 export default function ProjectsSection() {
   return (
-    <div className="w-full h-[900px] py-10 text-white font-mono">
+    <div id='projects' className="projects w-full h-[900px] py-10 text-white font-mono">
       <div className="text-center mb-10">
         <p className="text-gray-400">Explore</p>
         <h2 className="text-4xl font-bold text-cyan-500">Featured Projects</h2>

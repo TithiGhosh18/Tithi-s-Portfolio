@@ -5,7 +5,7 @@ import LeftSocialMediaIcons from './LeftSocialMediaIcons';
 import Lanyard from './Lanyard'
 const Hero = () => {
   return (
-    <div className="container flex">
+    <div id='hero' className="Hero container flex">
 
    
     <div className="relative flex items-center font-mono w-50% h-screen">
@@ -58,14 +58,8 @@ const Hero = () => {
         </div>
       </div>
     </div>
-    <div className="right-container">
-      {/* right side of the page */}
-    
-    <div className="id w-[600px] h-screen">
-      
-    </div>
-    </div>
      </div>
+     
   );
 };
 

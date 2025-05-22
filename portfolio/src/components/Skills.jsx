@@ -5,7 +5,7 @@ import { FaReact } from "react-icons/fa";
 const Skills = () => {
   return (
     <>
-    <div className="skills md:h-[700px]">
+    <div id='skills' className="skills md:h-[700px]">
         <div className="heading text-center  text-cyan-500 text-4xl m-auto justify-center items-center">
             <p>Skills</p>
         </div>

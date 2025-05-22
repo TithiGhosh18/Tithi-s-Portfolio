@@ -6,6 +6,8 @@ import Particlesbackground from './components/Particlesbackground'
 import Skills from './components/Skills'
 import ProjectsSection from './components/ProjectSection'
 import Experience from './components/Experience'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
 function App() {
   return (
     <>
@@ -18,6 +20,8 @@ function App() {
     <Skills/>
     <ProjectsSection/>
     <Experience/>
+    <Contact/>
+    <Footer/>
       </main>
     </div>
     </>
