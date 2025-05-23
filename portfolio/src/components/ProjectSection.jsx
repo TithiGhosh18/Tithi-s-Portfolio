@@ -3,7 +3,7 @@ import Project from './Project';
 import SQLEase from '../assets/SQLEase.png';
 import HealthyFi from '../assets/HealthyFi.png';
 import WeatherWiz from '../assets/WeatherWiz.png';
-import ExternalLinkButton from './ExternalLinkButton';
+
 const projects = [
   {
     title: 'SQLEase',

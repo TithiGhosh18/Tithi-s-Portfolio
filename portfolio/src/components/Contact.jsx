@@ -1,5 +1,5 @@
 import React from "react";
-import FadeInFromLeft from "./FadeInFromLeft";
+import FadeInFromUp from "./FadeInFromUp";
 import emailjs from 'emailjs-com';
 import SplitText from "./SpiltText";
 
@@ -20,7 +20,7 @@ const Contact = () => {
   };
 
   return (
-    <FadeInFromLeft>
+    <FadeInFromUp>
      <div className="Contact m-auto text-center justify-center md:mt-20 ">
       
       <SplitText
@@ -82,7 +82,7 @@ const Contact = () => {
 
                     {/* LinkedIn */}
                     <a
-                      href="/"
+                      href="https://www.linkedin.com/in/tithi-ghosh04/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-gray-300 hover:text-white transition"
@@ -100,7 +100,7 @@ const Contact = () => {
 
                     {/* Instagram */}
                     <a
-                      href="/"
+                      href="https://www.instagram.com/tithi_ghosh04/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-gray-300 hover:text-white transition"
@@ -166,7 +166,7 @@ const Contact = () => {
         </div>
       </div>
       </div>
-    </FadeInFromLeft>
+    </FadeInFromUp>
   );
 };
 

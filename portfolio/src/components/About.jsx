@@ -1,9 +1,11 @@
 import React from 'react'
 import { Download } from 'lucide-react';
 import SpotlightCard from './SpotlightCard';
+import FadeInFromLeft from './FadeInFromLeft';
 const About = () => {
   return (
     <>
+    <FadeInFromLeft>
     <div id='About' className="About w-full h-[800px] font-mono">
       <div className="heading text-cyan-500 text-4xl justify-center text-center items-center">
         <p>About Me</p>
@@ -70,6 +72,7 @@ const About = () => {
       </div>
 
     </div>
+    </FadeInFromLeft>
     </>
   )
 }

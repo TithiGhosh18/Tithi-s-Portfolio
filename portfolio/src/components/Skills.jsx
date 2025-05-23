@@ -1,7 +1,9 @@
 import React from 'react'
 import OrbitingItems from './testOrbitingItems'
 import { Icons } from "./Icons";
-import { FaReact } from "react-icons/fa";
+import FadeInFromLeft from './FadeInFromLeft';
+import FadeInFromRight from './FadeInFromRight';
+import FadeInFromUp from './FadeInFromUp';
 const Skills = () => {
   return (
     <>
@@ -17,7 +19,7 @@ const Skills = () => {
          
           
         <div className="skillcontainer md:px-3 md:py-3 flex m-auto items-center justify-center">
-
+            <FadeInFromLeft>
             <div className="set1 text-gray-400 m-auto justify-center items-center text-center p-4">
                 <div className="flex m-2">
                 <div className="html m-3 md:m-5 px-3 py-2 w-[60px] h-[60px] md:w-[100px] md:h-[100px] border  justify-center items-center  border-gray-600 rounded ">
@@ -51,9 +53,10 @@ const Skills = () => {
                     <p className='py-2'>Github</p>
                 </div>
                 </div>
+                
             </div>
-
-
+            </FadeInFromLeft>
+            <FadeInFromUp>
     <div className="orbitcontainer text-cyan-500 m-auto w-[300px] justify-center">
       
       <OrbitingItems
@@ -73,8 +76,9 @@ const Skills = () => {
         radius={50}
       />
       </div>
+      </FadeInFromUp>
 
-
+<FadeInFromRight>
 <div className="set2 text-gray-400 m-auto justify-center items-center text-center p-4">
                 <div className="flex m-2">
                 <div className="html m-3 md:m-5 px-3 py-2 w-[60px] h-[60px] md:w-[100px] md:h-[100px] border  justify-center items-center  border-gray-600 rounded ">
@@ -108,7 +112,9 @@ const Skills = () => {
                     <p className='py-2'>Figma</p>
                 </div>
                 </div>
+                
             </div>
+            </FadeInFromRight>
 
 
     </div>

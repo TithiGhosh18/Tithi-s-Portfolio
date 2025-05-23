@@ -41,7 +41,9 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
         <div className="text-xl font-bold text-white">
           <div className="Name sm:text-sm md:text-3xl lg:text-4xl noto-sans-regular">
-            <span>&lt;TithiGhosh/&gt;</span>
+            <a href="/">
+            <span >&lt;TithiGhosh/&gt;</span>
+            </a>
           </div>
         </div>
 
@@ -55,18 +57,21 @@ export default function Navbar() {
           </button>
           <a
             href="#skills"
-            className="hover:text-cyan-400 transition"
+            onClick={() => scrollToTargetWorks("skills")}
+            className=" text-center pt-2 hover:text-cyan-400 transition"
           >
             Skills
           </a>
           <a
             href="#projects"
-            className="hover:text-cyan-400 transition"
+            onClick={() => scrollToTargetWorks("projects")}
+            className=" text-center pt-2 hover:text-cyan-400 transition"
           >
             Projects
           </a>
           <a
             href="#contact"
+            onClick={() => scrollToTargetWorks("contact")}
             className="bg-transparent border-2 border-cyan-500 hover:bg-cyan-600 hover:text-white text-cyan-500 px-4 py-2 rounded-full transition duration-300"
           >
             Contact
@@ -86,25 +91,27 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <div className="md:hidden px-4 pb-4 space-y-4 text-sm font-medium text-white ">
+        <div className=" justify-between md:hidden px-4 pb-4 text-sm font-medium text-white ">
           <button
             onClick={() => {
               scrollToTargetWorks("About");
               setMenuOpen(false);
             }}
-            className="block w-full text-center hover:text-cyan-400"
+            className="block w-full text-center p-2 hover:text-cyan-400"
           >
             About
           </button>
-          <a href="#skills" className=" block w-full text-center hover:text-cyan-400">
+          <button
+           className="block w-full m-auto text-center p-2 hover:text-cyan-400">
             Skills
-          </a>
-          <a href="#projects" className="block hover:text-cyan-400">
+          </button>
+          <button
+           className="block w-full m-auto text-cneter p-2 hover:text-cyan-400">
             Projects
-          </a>
+          </button>
           <a
             href="#contact"
-            className="block w-fit bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-full transition duration-300"
+            className="block w-fit items-center m-auto text-center bg-orange-500 hover:bg-o my-2 range-600 text-white px-4 py-2 rounded-full transition duration-300"
           >
             Contact
           </a>

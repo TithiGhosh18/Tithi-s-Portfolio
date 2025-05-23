@@ -2,7 +2,7 @@ import React from 'react';
 import { LucideGithub, Download } from 'lucide-react';
 import './Hero.css';
 import LeftSocialMediaIcons from './LeftSocialMediaIcons';
-import Lanyard from './Lanyard'
+import LetterTyped from '../LetterTyoed';
 const Hero = () => {
   return (
     <div id='hero' className="Hero container flex">
@@ -23,7 +23,16 @@ const Hero = () => {
         </div>
 
         <div className="designation m-2 p-2 text-cyan-500 text-2xl md:text-3xl">
-          <p>&lt; Software Developer /&gt;</p>
+           <LetterTyped
+    strings={[
+      '< Software Developer />',
+      '< Web Developer />',
+      '< Software Engineer />',
+      '< Fullstack Developer />'
+    ]}
+    charDelay={100}  // typing speed
+    pause={1500}     // pause between lines
+  />
         </div>
         
         {/* <hr class="landing__hr text-cyan-500"></hr> */}

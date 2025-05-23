@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 
-export default function FadeInFromLeft({ children }) {
+export default function FadeInFromUp({ children }) {
   const ref = useRef();
   const [isVisible, setVisible] = useState(false);
 
@@ -20,8 +20,8 @@ export default function FadeInFromLeft({ children }) {
   return (
     <div
       ref={ref}
-      className={`transition-all duration-1800 transform ${
-        isVisible ? "opacity-100 translate-x-10" : "opacity-0 -translate-x-10"
+      className={`transition-all duration-800 fade-in-out transform ${
+        isVisible ? "opacity-100 translate-y-0" : "opacity-10 -translate-y-10"
       }`}
     >
       {children}
