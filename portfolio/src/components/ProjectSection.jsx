@@ -23,7 +23,7 @@ const projects = [
   },
   {
     title: 'WeatherWiz',
-    description: 'HealthyFi is a medicine recommendation system that helps users identify possible diseases based on their symptoms and receive personalized suggestions. Users can input their symptoms through a simple interface, and the system predicts the likely disease using a machine learning model. It then provides the disease definition, recommended medications, precautions, and lifestyle tips — all in one place, making health advice accessible and efficient.',
+    description: 'Weather Wiz is a sleek and responsive weather forecast web app that allows users to search for real-time weather information by city name. It displays key data such as temperature, weather condition, humidity, and wind speed using clean UI components and live data fetched from the OpenWeatherMap API. Built with simplicity and speed in mind, the app is fully responsive and deployed on Vercel for fast, global access..',
     github: 'https://github.com/TithiGhosh18/WeatherWiz',
     demo: 'https://weather-wiz-gamma.vercel.app/',
     image: WeatherWiz,
