@@ -12,6 +12,7 @@ function App() {
   return (
     <>
     <div className= ' relative'>
+     
       <Particlesbackground/>
     <main className="relative z-10 noto-sans-regular font-mono">
     <Navbar/>

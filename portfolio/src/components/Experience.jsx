@@ -1,13 +1,15 @@
 import React from 'react'
 import { Icons } from './Icons'
-
+import FadeInFromRight from './FadeInFromRight'
 const Experience = () => {
   return (
+   
     <div className='experience font-mono md:h-[780px] md:mb-[70px]'>
         <div className="heading m-auto items-center justify-center text-center">
             <p className='text-gray-400'>My</p>
             <p className='text-4xl text-cyan-500'>Experience</p>
         </div>
+         <FadeInFromRight>
         <div className="firstcontainer flex justify-center-safe p-5 md:p-8 m-3 md:mt-12 text-gray-400">
             <div className="first justify-center text-center md:w-[250px] p-2 md:p-3">
                 <div className="year text-2xl text-cyan-500 p-2">
@@ -85,7 +87,9 @@ My experience spans working on diverse projects, from small business websites to
                 </div>
             </div>
         </div>
+        </FadeInFromRight>
     </div>
+    
   )
 }
 

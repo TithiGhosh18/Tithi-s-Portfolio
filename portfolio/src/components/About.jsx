@@ -5,13 +5,13 @@ import FadeInFromLeft from './FadeInFromLeft';
 const About = () => {
   return (
     <>
-    <FadeInFromLeft>
+    
     <div id='About' className="About w-full h-[800px] font-mono">
       <div className="heading text-cyan-500 text-4xl justify-center text-center items-center">
         <p>About Me</p>
         <hr className="w-50 bg-cyan-500 m-auto "/>
       </div>
-
+      <FadeInFromLeft>
       <div className='container flex justify-center m-5 p-20'>
        <div className="wriiten">
           
@@ -70,9 +70,8 @@ const About = () => {
   </div>
 </div>
       </div>
-
+</FadeInFromLeft>
     </div>
-    </FadeInFromLeft>
     </>
   )
 }

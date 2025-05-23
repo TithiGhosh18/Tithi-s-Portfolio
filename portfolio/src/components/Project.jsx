@@ -24,7 +24,7 @@ const Project = ({ project }) => {
       <img
         src={project.image}
         alt={project.title}
-        
+
         className="h-48 w-full rounded-xl object-cover mb-4"
       />
       <h3 className="text-xl font-bold text-cyan-500 mb-1">{project.title}</h3>
@@ -33,7 +33,7 @@ const Project = ({ project }) => {
         <a
           href={project.github}
           target="_blank"
-          className="px-4 py-1 text-gray-300 border-2 border-cyan-500 font-medium rounded hover:bg-cyan-600 hover:text-black"
+          className="px-4 py-1 text-gray-300 border-2 border-cyan-500 font-medium rounded hover:bg-cyan-600 hover:text-black hover:scale-110 transition-transform duration-200 ease-in-out"
         >
           Github
           
@@ -41,7 +41,7 @@ const Project = ({ project }) => {
         <a
           href={project.demo}
           target="_blank"
-          className="flex px-4 py-1 text-gray-300 border-2 border-cyan-500 font-medium rounded hover:bg-cyan-600 hover:text-black"
+          className="flex px-4 py-1 text-gray-300 border-2 border-cyan-500 font-medium rounded hover:bg-cyan-600 hover:text-black hover:scale-110 transition-transform duration-200 ease-in-out"
         >
           <p>Live demo</p>
 

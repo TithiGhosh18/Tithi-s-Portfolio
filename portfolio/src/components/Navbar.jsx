@@ -37,10 +37,10 @@ export default function Navbar() {
   const toggleMenu = () => setMenuOpen(!menuOpen);
 
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 shadow-md">
+    <nav className="fixed top-0 left-0 w-full z-50 shadow-md font-mono">
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-        <div className="text-xl font-bold text-white">
-          <div className="Name sm:text-sm md:text-3xl lg:text-4xl noto-sans-regular">
+        <div className="text-xl text-gray-400">
+          <div className="Name sm:text-sm md:text-3xl lg:text-4xl font-mono">
             <a href="/">
             <span >&lt;TithiGhosh/&gt;</span>
             </a>

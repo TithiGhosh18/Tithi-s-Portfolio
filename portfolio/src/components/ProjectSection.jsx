@@ -3,7 +3,8 @@ import Project from './Project';
 import SQLEase from '../assets/SQLEase.png';
 import HealthyFi from '../assets/HealthyFi.png';
 import WeatherWiz from '../assets/WeatherWiz.png';
-
+import FadeInWithSkew from './FadeInWithSkew';
+import FadeInWithPerspective from './FadeInWithPerspective';
 const projects = [
   {
     title: 'SQLEase',
@@ -41,7 +42,9 @@ export default function ProjectsSection() {
 
       <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-7xl mx-auto px-4 items-center text-center justify-center">
         {projects.map((proj, idx) => (
+          <FadeInWithPerspective>
           <Project key={idx} project={proj} />
+          </FadeInWithPerspective>
         ))}
       </div>
       
