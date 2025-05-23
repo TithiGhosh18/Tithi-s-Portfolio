@@ -3,10 +3,12 @@ import { LucideGithub, Download } from 'lucide-react';
 import './Hero.css';
 import LeftSocialMediaIcons from './LeftSocialMediaIcons';
 import LetterTyped from '../LetterTyoed';
+import FadeInWithSkew from './FadeInWithSkew';
 const Hero = () => {
   return (
+    <FadeInWithSkew>
     <div id='hero' className="Hero container flex">
-
+      
    
     <div className="relative flex items-center font-mono w-50% h-screen">
       <div className="sociallinks">
@@ -68,6 +70,7 @@ const Hero = () => {
       </div>
     </div>
      </div>
+     </FadeInWithSkew>
      
   );
 };

@@ -4,6 +4,7 @@ import { Icons } from "./Icons";
 import FadeInFromLeft from './FadeInFromLeft';
 import FadeInFromRight from './FadeInFromRight';
 import FadeInFromUp from './FadeInFromUp';
+import FadeInWithScale from './FdeWithInScale';
 const Skills = () => {
   return (
     <>
@@ -125,6 +126,7 @@ const Skills = () => {
 
 
 {/* its for skills currently learning*/}
+<FadeInWithScale>
     <div className="skiils2">
         <div className="heading text-center  text-cyan-500 text-2xl m-auto justify-center items-center">
             <p>Skills</p>
@@ -149,8 +151,11 @@ const Skills = () => {
                 </div>
                 </div>
               </div>
+              
               </div>
+              
               </div>
+              </FadeInWithScale>
 </>
     
   );
