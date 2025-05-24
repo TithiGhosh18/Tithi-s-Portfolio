@@ -2,6 +2,9 @@ import React from 'react';
 import { Download } from 'lucide-react';
 import SpotlightCard from './SpotlightCard';
 import FadeInFromLeft from './FadeInFromLeft';
+import tithighosh from '../assets/tithighosh.png';
+import opentowork from '../assets/opentowork.png'; // <- rename if you haven't already!
+
 import './Hero.css';
 
 const About = () => {
@@ -67,13 +70,13 @@ const About = () => {
           <div className="animate-float w-full md:w-1/3 flex justify-center items-center hover:scale-110 transition-transform duration-200 ease-in-out">
             <div className="relative w-60 h-60 sm:w-72 sm:h-72 md:w-80 md:h-80">
               <img
-                src="../src/assets/tithighosh.png"
+                src={tithighosh}
                 alt="Tithi Ghosh"
                 className="rounded-full w-full h-full object-cover shadow-[0_0_50px_10px_rgba(255,255,255,0.2)]"
               />
               <div className="absolute bottom-2 left-2 z-10">
                 <img
-                  src="../src/assets/opentowork.png"
+                  src={opentowork}
                   alt="Open to work badge"
                   className="rounded-lg w-24 sm:w-28 md:w-32"
                 />

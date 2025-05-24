@@ -1,6 +1,7 @@
 import React from 'react'
 import { Icons } from './Icons'
 import FadeInFromRight from './FadeInFromRight'
+import computerimage from '../assets/developercomputer.png'
 
 const Experience = () => {
   return (
@@ -40,7 +41,7 @@ const Experience = () => {
           {/* Middle Image */}
           <div className="second">
             <img
-              src="src/assets/developer computer.png"
+             src={computerimage}
               alt="computer image"
               className='w-full max-w-[350px] h-auto mx-auto'
             />
