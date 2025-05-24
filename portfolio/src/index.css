@@ -1,4 +1,7 @@
 @import "tailwindcss";
+body {
+  overflow-x: hidden;
+}
 .noto-sans-regular {
   font-family: "Noto Sans", sans-serif;
   font-optical-sizing: auto;

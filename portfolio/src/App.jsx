@@ -14,7 +14,7 @@ function App() {
     <div className= ' relative'>
      
       <Particlesbackground/>
-    <main className="relative z-10 noto-sans-regular font-mono">
+    <main className="relative z-10 noto-sans-regular font-mono w-screen h-screen">
     <Navbar/>
     <Hero/>
     <About/>

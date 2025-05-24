@@ -40,7 +40,7 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 w-full z-50 shadow-md font-mono">
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
         <div className="text-xl text-gray-400">
-          <div className="Name sm:text-sm md:text-3xl lg:text-4xl font-mono">
+          <div className="Name sm:text-4xl md:text-3xl lg:text-4xl font-mono">
             <a href="/">
             <span >&lt;TithiGhosh/&gt;</span>
             </a>

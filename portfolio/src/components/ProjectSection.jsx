@@ -34,7 +34,10 @@ const projects = [
 
 export default function ProjectsSection() {
   return (
-    <div id='projects' className="projects w-full h-[900px] py-10 text-white font-mono">
+    <div
+      id="projects"
+      className="projects w-full my-30 md:my-10 md:h-[900px] py-10 text-white font-mono"
+    >
       <div className="text-center mb-10">
         <p className="text-gray-400">Explore</p>
         <h2 className="text-4xl font-bold text-cyan-500">Featured Projects</h2>
@@ -42,12 +45,11 @@ export default function ProjectsSection() {
 
       <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-7xl mx-auto px-4 items-center text-center justify-center">
         {projects.map((proj, idx) => (
-          <FadeInWithPerspective>
-          <Project key={idx} project={proj} />
+          <FadeInWithPerspective key={idx}>
+            <Project project={proj} />
           </FadeInWithPerspective>
         ))}
       </div>
-      
     </div>
   );
 }

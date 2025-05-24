@@ -2,7 +2,7 @@ import React from 'react';
 import { LucideGithub, Download } from 'lucide-react';
 import './Hero.css';
 import LeftSocialMediaIcons from './LeftSocialMediaIcons';
-import LetterTyped from '../LetterTyoed';
+import LetterTyped from './LetterTyped';
 import FadeInWithSkew from './FadeInWithSkew';
 const Hero = () => {
   return (
@@ -45,13 +45,13 @@ const Hero = () => {
         </div>
 
         {/* Buttons */}
-        <div className="flex flex-col sm:flex-row gap-4 m-2 p-2">
+        <div className="flex flex-col sm:flex-row gap-4 m-2 p-2 ">
           {/* GitHub Button */}
           <a
             href="https://github.com/TithiGhosh18"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center justify-center gap-2 px-4 py-2 bg-transparent border border-cyan-500 text-cyan-500 hover:bg-gray-800 transition rounded w-full sm:w-48"
+            className="flex items-center justify-center gap-2 px-4 py-2 bg-transparent border border-cyan-500 text-cyan-500 hover:bg-gray-800 rounded w-full sm:w-48 hover:scale-110 transition-transform duration-200 ease-in-out"
           >
             <LucideGithub className="w-5 h-5 md:w-6 md:h-6" />
             <span>GitHub</span>
@@ -61,7 +61,7 @@ const Hero = () => {
           <a
             href="/Tithi_Ghosh_resume.pdf"
             download
-            className="flex items-center justify-center gap-2 px-4 py-2 bg-transparent border border-cyan-500 text-cyan-500 hover:bg-gray-800 transition rounded w-full sm:w-60"
+            className="flex items-center justify-center gap-2 px-4 py-2 bg-transparent border border-cyan-500 text-cyan-500 hover:bg-gray-800 rounded w-full sm:w-60 hover:scale-110 transition-transform duration-200 ease-in-out"
           >
             <Download className="w-5 h-5 md:w-6 md:h-6" />
             <span>Download Resume</span>
