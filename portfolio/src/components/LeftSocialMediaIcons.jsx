@@ -39,7 +39,7 @@ const socialLinks = [
     ),
   },
   {
-    href: "https://twitter.com/tithighosh04",
+    href: "https://x.com/tithighosh047",
     label: "Twitter",
     svg: (
       <svg
