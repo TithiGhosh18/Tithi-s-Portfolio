@@ -93,7 +93,7 @@ Big thanks to the open-source community and my mentors who inspire me to keep le
 
 ## 📄 License
 
-This project is open source under the Apache License.
+This project is open source under the Apache 2.0 License.
 
 
 
