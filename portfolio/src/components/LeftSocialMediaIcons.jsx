@@ -2,7 +2,7 @@ import React from "react";
 
 const socialLinks = [
   {
-    href: "https://github.com/jackparsonss",
+    href: "https://github.com/TithiGhosh18",
     label: "GitHub",
     svg: (
       <svg
@@ -16,7 +16,7 @@ const socialLinks = [
     ),
   },
   {
-    href: "https://www.linkedin.com/in/jack-parsonss/",
+    href: "https://www.linkedin.com/in/tithi-ghosh04//",
     label: "LinkedIn",
     svg: (
       <svg
@@ -30,7 +30,7 @@ const socialLinks = [
     ),
   },
   {
-    href: "https://www.instagram.com/jack.par/",
+    href: "https://www.instagram.com/tithighosh04",
     label: "Instagram",
     svg: (
       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
@@ -39,7 +39,7 @@ const socialLinks = [
     ),
   },
   {
-    href: "https://twitter.com/jackp",
+    href: "https://twitter.com/tithighosh04",
     label: "Twitter",
     svg: (
       <svg
