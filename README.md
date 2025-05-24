@@ -34,5 +34,70 @@ Explore the live version of my portfolio here:
 ---
 
 ## 📁 Project Structure
+```
+tithi-s-portfolio/
+├── public/
+├── src/
+│ ├── assets/ # Images, icons, etc.
+│ ├── components/ # Reusable UI components
+│ ├── pages/ # Portfolio sections
+│ ├── App.jsx # Main app
+│ └── main.jsx # Entry point
+├── .gitignore
+├── package.json
+├── postcss.config.js
+├── tailwind.config.js
+└── vite.config.js
+```
+
+---
+
+## 🚀 Getting Started Locally
+
+To run this project on your machine:
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/tithighosh/tithi-s-portfolio.git
+cd tithi-s-portfolio
+```
+
+2. **Install dependencies**
+
+```bash
+npm install
+```
+
+3.Start the development server
+
+```bash
+npm run dev
+```
+
+Now visit [http://localhost:5173](http://localhost:5173) in your browser!
+
+
+## Contact Me
+I’m always open to new opportunities, collaborations, or freelance projects!
+
+📧 Email: tithighosh192@gmail.com
+
+💼 LinkedIn: www.linkedin.com/in/tithi-ghosh04
+
+🐱 GitHub: https://github.com/TithiGhosh18
+
+## ⭐ Acknowledgements
+
+Big thanks to the open-source community and my mentors who inspire me to keep learning and building!
+
+## 📄 License
+
+This project is open source under the Apache License.
+
+
+
+
+
 
 
