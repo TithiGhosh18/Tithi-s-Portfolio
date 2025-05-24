@@ -90,10 +90,10 @@ const Experience = () => {
               <p className='text-5xl font-extrabold p-2 text-stone-300'>3</p>
             </div>
             <div className="title">
-              <p className='font-bold text-stone-300'>Continuous learning journey</p>
+              <p className='font-bold text-stone-300'>Years of Experience</p>
             </div>
             <div className="des">
-              <p>Professional skills validated</p>
+              <p>Continuous learning journey</p>
             </div>
           </div>
         </div>
