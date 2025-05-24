@@ -16,7 +16,7 @@ const socialLinks = [
     ),
   },
   {
-    href: "https://www.linkedin.com/in/tithi-ghosh04//",
+    href: "https://www.linkedin.com/in/tithi-ghosh04/",
     label: "LinkedIn",
     svg: (
       <svg
@@ -30,7 +30,7 @@ const socialLinks = [
     ),
   },
   {
-    href: "https://www.instagram.com/tithighosh04",
+    href: "https://www.instagram.com/tithi_ghosh04/",
     label: "Instagram",
     svg: (
       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
